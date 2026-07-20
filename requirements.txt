@@ -1,0 +1,13 @@
+# Install torch/torchvision separately FIRST with the CUDA wheel for your GPU, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# Plain `pip install torch` grabs the CPU-only build on Windows.
+ultralytics
+rfdetr[train,loggers]
+opencv-python
+matplotlib
+pandas
+numpy
+Pillow
+streamlit
+pyyaml
+tqdm
